@@ -1,0 +1,16 @@
+.resultado{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 3px 3px 1px white;
+    overflow: hidden;
+}

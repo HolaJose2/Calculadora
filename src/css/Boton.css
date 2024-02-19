@@ -1,0 +1,33 @@
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83px;
+    flex: 1 1;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.boton:hover {
+    filter: brightness(1.65);
+}
+
+
+.operador {
+    background-color: #00450b;
+}
+
+.boton-clear {
+    background-color: #ac0246;
+}
+
+.boton-delete {
+    background-color: #0e4abb;
+}
