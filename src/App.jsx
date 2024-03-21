@@ -89,25 +89,25 @@ function App() {
                <Boton onClick={actualizarResultado}>7</Boton>
                <Boton onClick={actualizarResultado}>8</Boton>
                <Boton onClick={actualizarResultado}>9</Boton>
-               <Boton onClick={actualizarResultado}>+</Boton>
+               <Boton onClick={actualizarResultado}>/</Boton>
             </div>
             <div className="fila">
                <Boton onClick={actualizarResultado}>4</Boton>
                <Boton onClick={actualizarResultado}>5</Boton>
                <Boton onClick={actualizarResultado}>6</Boton>
-               <Boton onClick={actualizarResultado}>-</Boton>
+               <Boton onClick={actualizarResultado}>*</Boton>
             </div>
             <div className="fila">
                <Boton onClick={actualizarResultado}>1</Boton>
                <Boton onClick={actualizarResultado}>2</Boton>
                <Boton onClick={actualizarResultado}>3</Boton>
-               <Boton onClick={actualizarResultado}>*</Boton>
+               <Boton onClick={actualizarResultado}>-</Boton>
             </div>
             <div className="fila">
                <Boton onClick={calcularResultado}>=</Boton>
                <Boton onClick={actualizarResultado}>0</Boton>
                <Boton onClick={actualizarResultado}>.</Boton>
-               <Boton onClick={actualizarResultado}>/</Boton>
+               <Boton onClick={actualizarResultado}>+</Boton>
             </div>
             <div className="fila">
                <BotonClear

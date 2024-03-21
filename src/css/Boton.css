@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 83px;
+    height: 70.3px;
     flex: 1 1;
     font-weight: bold;
     font-size: 38px;
     background-color: #1b1b32;
     color: white;
-    border-radius: 25px;
+    border-radius: 22px;
     border: 2px solid white;
     margin: 4px;
     cursor: pointer;
@@ -30,4 +30,12 @@
 
 .boton-delete {
     background-color: #0e4abb;
+}
+
+@media screen and (width <=430px) {
+    .boton {
+        height: 52.76px;
+        font-size: 26px;
+        border-radius: 16px;
+    }
 }
